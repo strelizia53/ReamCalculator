@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* Beige = #FFF5E1 */
+/* Red = #C80036 */
+/* Salmon = FF6969 */
+/* Blue = 0C1844 */
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: #fff5e1;
+  background-image: url(Assets/bg.jpg);
+  background-position: center;
+  background-size: 100%;
+  margin: 0;
+}
+input {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5em;
+  background-color: #0c1844;
+  color: #fff5e1;
+}
+.Calc {
+  background-color: #ff6969;
+  border: 5px solid #0c1844;
+  width: fit-content;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 100%;
+}
+.heading {
+  font-size: 3em;
+}
+label {
+  font-size: 2em;
+}
+#ans {
+  font-size: 2em;
+}
+h2 {
+  color: #c80036;
+}
+#ans {
+  color: #0c1844;
+}
+p {
+  font-size: 1.5em;
+  color: #fff5e1;
+  text-align: center;
+}
+.heading {
+  color: #0c1844;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  input {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+
+  .heading {
+    font-size: 1.8em;
+  }
+
+  #ans {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
