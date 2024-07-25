@@ -18,7 +18,7 @@ function calculate() {
     isNaN(numberOfTons) ||
     isNaN(sheetsPerReam)
   ) {
-    ansElement.textContent = "Please enter valid values";
+    ansElement.textContent = "enter values";
     resultElement.style.display = "block";
     return;
   }
